@@ -245,13 +245,7 @@ padding: 0;
 }
 
 .icon {
-    display: inline-block;
-    width: 64;
-    height: 64;
-    stroke-width: 1;
-    stroke: currentColor;
-    fill: currentColor;
-    color: #2e2f42;
+    position: relative;
 }
 
 .list-section-four {
