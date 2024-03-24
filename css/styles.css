@@ -65,7 +65,7 @@ padding: 0;
     color: #404bbf;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-::after .new {
+.new ::after{
     content: "";
     width: 100%;
     position: absolute;
@@ -146,14 +146,13 @@ padding: 0;
 
 }
 .first-section{
-    background-color: #2e2f42;
-    padding: 188px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1\ .jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
+    url(../images/people-office\ 1\ .jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     max-width: 1440px;
-    
+    padding: 188px 0;
 }
 .style_hfirst{
     font-size: 56px;
