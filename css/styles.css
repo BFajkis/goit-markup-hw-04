@@ -252,8 +252,7 @@ padding: 0;
     gap: 24px;
     flex-wrap: wrap;
     row-gap: 48px;
-
-    
+   
 }
 .items-section-four{
     width: calc((100% - 48px) / 3);
@@ -264,15 +263,15 @@ padding: 0;
     border: 1px solid #e7e9fc;
     border-top: none;
     border-radius: 0px 0px 4px 4px;
-    
+    /* position: relative;
+    overflow: hidden; */
     
 }
 .transform{
-            padding: 32px 16px;
-            border: 1px solid #e7e9fc;
-            border-top: none;
-            border-radius: 0px 0px 4px 4px;
+    position: relative;
+    overflow: hidden;
 }
+
 .overlay {
     padding: 8px;
     background-color: #3f51b5;
