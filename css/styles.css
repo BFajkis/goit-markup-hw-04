@@ -339,16 +339,19 @@ border-radius: 0px 0px 4px 4px;
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    fill: #f4f4fd;
     }
 
-.icons-media:hover,
+.icons-media:hover{
+        background-color: #404bbf;
+    }
 .icons-media:focus{
     background-color: #404bbf;
     }
-.icons{
+/* .icons{
     fill: #F4F4FD;
     top:12px;
-    left: 12px;
+    left: 12px; */
 
 }
 .thirt-section-hsecend{
