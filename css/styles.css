@@ -352,6 +352,8 @@ border-radius: 0px 0px 4px 4px;
     text-transform: capitalize;
     color: #2e2f42;
     margin-bottom: 72px;
+    height: 100%;
+    width: 100%;
 }
 
 .list-section-four {
