@@ -93,7 +93,7 @@ padding: 0;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: #404bbf;
     text-decoration: none;
     padding: 24px 0;
     display: block;
@@ -154,7 +154,7 @@ padding: 0;
     background-size: cover;
     max-width: 1440px;
     padding: 188px 0;
-    box-shadow: z wartościami 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .style_hfirst{
     font-size: 56px;
