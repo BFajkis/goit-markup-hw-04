@@ -332,7 +332,7 @@ border-radius: 0px 0px 4px 4px;
 
  }
 
-.thirt-section-hsecend{
+ .thirt-section-hsecend{
     text-align: center;
     font-weight: 700;
     font-size: 36px;
@@ -384,15 +384,17 @@ border-radius: 0px 0px 4px 4px;
     transform: translateY(0%);
 }
 
-.team-container {
-    display: flex;
-    list-style: none;
-    gap: 24px;
-}
 .category {
     position: relative;
     overflow: hidden;
 
+}
+.items-section {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+    position: relative;
+    overflow: hidden;
 }
 
 .parrent-style {
