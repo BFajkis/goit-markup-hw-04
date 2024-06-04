@@ -257,7 +257,7 @@ padding: 0;
 /*  */
 .category{
     /* padding: 32px 16px; */
-    border: 1px solid #e7e9fc;
+    /* border: 1px solid #e7e9fc; */
     border-top: none;
     border-radius: 0px 0px 4px 4px;
     /* position: relative;
@@ -420,7 +420,7 @@ border-radius: 0px 0px 4px 4px;
 .category {
     /* padding: 32px 16px; */
     
-    border-top: none;
+    
     position: relative;
     overflow: hidden;
     height: 100%;
@@ -428,11 +428,10 @@ border-radius: 0px 0px 4px 4px;
 }
 
 .parrent-style{
-    padding: 40px 32px;
+    padding: 32px 16px;
     border: 1px solid #E7E9FC;
-    height: 100%;
-    width: 100%;
-}
+    border-top: none;
+   }
 
 
 /* Footer  */
