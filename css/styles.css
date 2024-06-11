@@ -154,6 +154,7 @@ padding: 0;
     background-size: cover;
     max-width: 1440px;
     padding: 188px 0;
+    margin: auto;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .style_hfirst{
@@ -193,7 +194,7 @@ padding: 0;
     background-color: #404bbf;
     cursor: pointer;
 }
-.style_htherd{
+.style_name{
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -213,9 +214,6 @@ padding: 0;
     color: #434455;
     text-align: center;
     margin-bottom: 8px;
-    /* padding: 40px 32px; */
-    height: 100%;
-    width: 100%;
     
 }
 
@@ -325,12 +323,30 @@ border-radius: 0px 0px 4px 4px;
 
 }
 /* section 4 */
+.style_htherd {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+    /* text-align: center; */
+    margin-bottom: 8px;
 
+}
  .style-section {
      padding: 120px 0 120px 0;
 
  }
+.style-acapit-portfolio {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    /* text-align: center; */
+    margin-bottom: 8px;
 
+}
  .thirt-section-hsecend{
     text-align: center;
     font-weight: 700;
@@ -392,8 +408,10 @@ border-radius: 0px 0px 4px 4px;
     display: flex;
     list-style: none;
     gap: 24px;
-    position: relative;
-    overflow: hidden;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+    
 }
 
 .parrent-style {
@@ -408,6 +426,9 @@ border-radius: 0px 0px 4px 4px;
 .footer-container {
     display: flex;
     align-items: baseline;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px 0 15px;
 }
 
 .footer-left {
